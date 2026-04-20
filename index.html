@@ -1,0 +1,96 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        
+    margin: 0;
+    height: 100vh;
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('money.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+    input {
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      button {
+        border: none;
+        color: white;
+        border-radius: 5px;
+        background-color: lightseagreen;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 10px;
+      }
+
+       body.light {
+    background: white !important;
+    color: black;
+  }
+
+      button:hover {
+        background-color: lightskyblue;
+        color: black;
+      }
+      .quick-buttons button {
+        background-color: orange;
+        margin: 5px;
+        padding: 8px 15px;
+     }
+
+      .quick-buttons button:hover {
+         background-color: gold;
+ }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="toggleMode()">🌙 Toggle Mode</button>
+      <h2>🏦💰Bank Account simulator</h2>
+      <input type="number" id="amount" placeholder="Enter the Amount" />
+      <br />
+
+      <div class="quick-buttons">
+        <button onclick="setAmount(100)">₹100</button>
+        <button onclick="setAmount(200)">₹200</button>
+        <button onclick="setAmount(300)">₹300</button>
+      </div>
+
+      <button onclick="deposite()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+      <button onclick="checkBal()">Check Balance</button>
+      <button onclick="showHistory()">Transaction History</button>
+
+      <div id="output"></div>
+      <pre id="historyBox"></pre>
+    </div>
+    <script src="node.js"></script>
+    </body>
+</html>
+
+
+
+    
