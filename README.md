@@ -1,64 +1,64 @@
-# bank account simulator
+# Bank Account Simulator
 
-# project description
-a simple banking web application built using html, css, and javascript. it simulates real-world banking operations like login authentication, deposit, withdraw, balance checking, and transaction history with real-time updates.
+# Project Description
+A simple banking web application built using html, css, and javascript. It simulates real-world banking operations like login authentication, deposit, withdraw, balance checking, and transaction history with real-time updates.
 
-# features
-- user login system with 3-attempt limit  
-- account lock mechanism after failed attempts  
-- login success validation  
-- deposit functionality  
-- withdraw functionality  
-- real-time balance update  
-- transaction history tracking  
-- minimum balance validation  
-- dark / light mode toggle  
+# Features
+- User login system with 3-attempt limit  
+- Account lock mechanism after failed attempts  
+- Login success validation  
+- Deposit functionality  
+- Withdraw functionality  
+- Real-time balance update  
+- Transaction history tracking  
+- Minimum balance validation  
+- Dark / Light mode toggle  
 
-# tech stack
-- html  
-- css  
-- javascript  
+# Tech Stack
+- Html  
+- Css  
+- Javascript  
 
-# screenshots
+# Screenshots
 
-# login page
+# Login Page
 ![login](screenshots/login.jpg)
 
-# login attempt
+# Login Attempt
 ![attempt](screenshots/attempt.jpg)
 
-# login success
+# Login Success
 ![success](screenshots/success.jpg)
 
-# account locked
+# Account Locked
 ![locked](screenshots/locked.jpg)
 
-# dashboard
+# Dashboard
 ![dashboard](screenshots/dashboard.png)
 
-# transaction history
+# Transaction History
 ![transaction](screenshots/transaction.jpg)
 
-# how to run
-- clone or download this repository  
-- open `index.html` in any browser  
-- start using the application  
+# How to Run
+- Clone or download this repository  
+- Open `index.html` in any browser  
+- Start using the application  
 
-# what i learned
-- dom manipulation using javascript  
-- event handling  
-- form validation  
-- conditional logic building  
-- ui state management  
-- building interactive frontend applications
+# What i Learned
+- Dom manipulation using javascript  
+- Event handling  
+- Form validation  
+- Conditional logic building  
+- UI state management  
+- Building interactive frontend applications
   
-# author
+# Author
  Pirthika Annadurai
   
-- github: https://github.com/pirthikaannadurai11-aft  
-- linkedin: https://www.linkedin.com/posts/pirthika-annadurai-7101662a4_webdevelopment-javascript-frontenddevelopment-ugcPost-7452394870679453697-MjGj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElZnnwBiJx75khj7eg6vZOHoBRoR6BqHmg
+- Github: https://github.com/pirthikaannadurai11-aft  
+- Linkedin: https://www.linkedin.com/posts/pirthika-annadurai-7101662a4_webdevelopment-javascript-frontenddevelopment-ugcPost-7452394870679453697-MjGj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElZnnwBiJx75khj7eg6vZOHoBRoR6BqHmg
 
   
-# tags
+# Tags
 
 #html #css #javascript #bankapp #webdevelopment #frontend #project
