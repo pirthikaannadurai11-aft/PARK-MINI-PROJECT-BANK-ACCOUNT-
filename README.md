@@ -55,7 +55,8 @@ A simple banking web application built using html, css, and javascript. It simul
 # Author
  Pirthika Annadurai
   
-- Github: https://github.com/pirthikaannadurai11-aft  
+- Github: https://github.com/pirthikaannadurai11-aft
+  
 - Linkedin: https://www.linkedin.com/posts/pirthika-annadurai-7101662a4_webdevelopment-javascript-frontenddevelopment-ugcPost-7452394870679453697-MjGj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElZnnwBiJx75khj7eg6vZOHoBRoR6BqHmg
 
   
